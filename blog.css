@@ -1,0 +1,43 @@
+/* استایل اختصاصی وبلاگ */
+
+/* فونت کلی */
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #fafafa;
+}
+
+/* کارت‌های وبلاگ */
+.blog-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(12, 3, 63, 0.15);
+}
+
+/* عنوان پست */
+.card-title {
+  color: #222;
+  font-weight: 700;
+}
+
+/* توضیحات پست */
+.card-text {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* هدر */
+header h1 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* فوتر */
+footer {
+  font-size: 0.9rem;
+}
